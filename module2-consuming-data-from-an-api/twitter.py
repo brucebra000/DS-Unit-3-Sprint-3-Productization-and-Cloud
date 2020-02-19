@@ -24,7 +24,7 @@ for tweet in my_tweets:
     print(type(tweet), tweet.text)
     print("----------")
 
-other_tweets = client.user_timeline("elonmusk", tweet_mode = 'extended')
+other_tweets = client.user_timeline("NintendoAmerica", tweet_mode = 'extended')
 
 for tweet in other_tweets:
     print(type(tweet), tweet.full_text)
